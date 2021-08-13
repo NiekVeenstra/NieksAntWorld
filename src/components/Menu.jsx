@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Menu = () => {
   const [open, setOpen] = useState(false);
-  const [inputText, setInputText] = useState("");
+  console.log(open);
 
   return (
     <>
@@ -13,7 +13,7 @@ const Menu = () => {
         <div className={open ? " nav-open" : " line"} />
       </div>
       <div
-        className={open ? "menu-container test" : "menu-container"}
+        className={open ? "menu-container open1" : "menu-container"}
         open={open}
         onClick={() => setOpen(!open)}
       >
