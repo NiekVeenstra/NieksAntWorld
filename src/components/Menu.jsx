@@ -25,8 +25,20 @@ const Menu = () => {
         </li>
         <li className="menu-container__li">
           {" "}
-          <Link className="menu-container__link" to="/movies">
-            Movies
+          <Link className="menu-container__link" to="/blog">
+            Blog
+          </Link>
+        </li>
+        <li className="menu-container__li">
+          {" "}
+          <Link className="menu-container__link" to="/gallery">
+            Gallery
+          </Link>
+        </li>
+        <li className="menu-container__li">
+          {" "}
+          <Link className="menu-container__link" to="/contact">
+            Contact
           </Link>
         </li>
       </div>
