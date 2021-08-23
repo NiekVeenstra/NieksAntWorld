@@ -8,13 +8,21 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   background-color: $overal-background-color;
-  height:100%;
+  height: 100%;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
-  height:100%;
+  height: 100%;
 }
-.link{
+.link {
   text-decoration: none;
+}
+
+.homepage,
+.blogpage,
+.gallerypage,
+.contactpage {
+  padding-top: 5rem;
+  border: solid red 1px;
 }
