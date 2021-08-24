@@ -12,7 +12,7 @@ import Contactpage from "./pages/Contactpage";
 const App = () => {
   return (
     <Router>
-      <div>
+      <div className="trialanderror">
         <Navbar />
         <Switch>
           <Route exact path="/" component={Homepage} />

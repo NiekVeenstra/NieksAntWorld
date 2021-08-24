@@ -169,12 +169,25 @@ body {
           transform: translateX(0%);
 }
 
+.homepage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.homepage__banner {
+  width: 80%;
+}
+
 #welcomeAnimation {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 #welcomeAnimation path:nth-child(2) {
@@ -243,7 +256,7 @@ body {
     fill: transparent;
   }
   to {
-    fill: red;
+    fill: #ff8800;
   }
 }
 
@@ -252,7 +265,7 @@ body {
     fill: transparent;
   }
   to {
-    fill: red;
+    fill: #ff8800;
   }
 }
 /*# sourceMappingURL=styles.css.map */
